@@ -1,0 +1,322 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background {
+    background: url('../img/Hojas.PNG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-dark {
+    background: url('../img/dark-mode.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Dark Mode*/
+
+.moon {
+    filter: brightness(10%);
+    -webkit-filter: brightness(10%);
+}
+
+.container-dark_mode {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.main-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 470px ;
+}
+
+#dark-mode {
+    width: 70px;
+    height: 30px;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: rgb(53, 53, 53);
+}
+
+#bubble {
+    width: 30px;
+    height: 28px;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 999px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+    top: 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+
+
+.bx-wrapper {
+    margin-top: 20px;
+    height: 250px !important;
+}
+
+.main-page {
+    position: relative;
+    width: 70%;
+    background-color: white;
+    height: auto;
+    margin: 0 auto;
+    top: 110px;
+    padding: 20px;
+    z-index: 1;
+}
+
+
+/*CABECERA*/
+
+.main-title {
+    font-size: 2.5em;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    width: 280px;
+}
+
+.nav-container {
+    margin-top: 20px;
+    background-color: rgb(83, 83, 83);
+}
+
+.nav-container a {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav li {
+    padding: 10px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.nav li:hover {
+    background-color: green;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 55% 30%;
+    column-gap: 90px;
+}
+
+/*Articles*/
+
+.title-article {
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: green;
+}
+
+.subtitle-article {
+    color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.article-button {
+    padding: 15px;
+    color: white;
+    background-color: green;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.article-text {
+    font-size: 1.19em;
+    font-weight: bold;
+}
+
+/*sidebar*/
+
+.aside {
+    width: 100%;
+}
+
+.whoami {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whoami-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.first-p {
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+
+.gray-bar {
+    background-color: rgb(179, 179, 179);
+    height: 5px;
+    width: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.aside-img{
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.second-p {
+    font-size: 15px;
+    margin-top: 10px ;
+    font-weight: bold;
+}
+
+.user {
+width: 100%;
+}
+
+.registration-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column ;
+}
+
+#form label {
+    font-weight: bold;
+}
+
+#form input {
+    border: 2px solid gray;
+    margin-bottom: 20px;
+}
+
+form input[type = "submit"] {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.author {
+    position: relative;
+    top: 210px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: turquoise;
+}
+
+.up {
+    display: none; 
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #929090;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.show {
+    display: block;
+}
+
+#page-acordeon {
+    margin-top: 20px;
+}
+
+.acordeon-title {
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 20px ;
+}
+
+#clock {
+    font-size: 70px;
+    font-weight: bold;
+    color: green;
+    border: 5px dashed #333;
+    text-align: center;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form label, input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 10px;
+}
+
+select {
+    border: 2px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form input[type = "submit"] {
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.form-error {
+    background-color: red;
+    color: white;
+}
